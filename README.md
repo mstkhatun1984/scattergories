@@ -1,2 +1,0 @@
-# scattergories
-Group Project
