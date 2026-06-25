@@ -1,9 +1,12 @@
 import express from "express";
 const app = express();
-const router = express.Router();
 
-router.get("/", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Hello World");
 });
 
-export default router;
+
+app.listen(3000, () => {
+  console.log("Server is running on port 3000");
+});
+ 
